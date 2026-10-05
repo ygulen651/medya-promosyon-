@@ -1,0 +1,3 @@
+"use client";
+import { useEffect } from "react";import { firebaseApp } from "@/lib/firebase-client";
+export default function ConsentAnalytics(){useEffect(()=>{let active=true;async function sync(){const allowed=localStorage.getItem("cookie-choice")==="all";if(!allowed)return;const {getAnalytics,isSupported,setAnalyticsCollectionEnabled}=await import("firebase/analytics");if(active&&await isSupported())setAnalyticsCollectionEnabled(getAnalytics(firebaseApp),true)}sync();window.addEventListener("cookie-consent",sync);return()=>{active=false;window.removeEventListener("cookie-consent",sync)}},[]);return null}

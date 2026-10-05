@@ -1,0 +1,4 @@
+"use client";
+import Link from "next/link";
+import { useEffect,useState } from "react";
+export default function CookieBanner(){const [show,setShow]=useState(false);useEffect(()=>setShow(!localStorage.getItem('cookie-choice')),[]);function choose(v:string){localStorage.setItem('cookie-choice',v);setShow(false);window.dispatchEvent(new Event('cookie-consent'));}if(!show)return null;return <aside className="cookie" aria-label="Çerez tercihi"><strong>Çerez tercihleri</strong><p>Deneyimi iyileştirmek ve anonim kullanım verilerini ölçmek için çerez kullanıyoruz.</p><div><button className="button ghost" onClick={()=>choose('necessary')}>Yalnızca gerekli</button><button className="button" onClick={()=>choose('all')}>Tümünü kabul et</button></div><Link href="/gizlilik">Gizlilik politikası</Link></aside>}

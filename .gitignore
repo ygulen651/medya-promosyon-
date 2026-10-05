@@ -1,0 +1,9 @@
+node_modules/
+.next/
+.next-old/
+.env*.local
+npm-debug.log*
+*firebase-adminsdk*.json
+serviceAccountKey.json
+work/
+data/store.json
