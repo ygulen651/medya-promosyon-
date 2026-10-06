@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-type Props = { type: string; color?: string };
+type Props = { type: string; color?: string; imageUrl?: string; alt?: string };
 
 const images: Record<string, string> = {
   bottle: "/catalog-drinkware.png",
@@ -20,8 +20,11 @@ const labels: Record<string, string> = {
   print: "Kurumsal matbaa ürünü",
 };
 
-export default function ProductVisual({ type }: Props) {
+export default function ProductVisual({ type, imageUrl, alt }: Props) {
   return <div className={`product-visual photo-${type}`}>
-    <Image src={images[type] || "/catalog-stationery.png"} alt={labels[type] || "Kurumsal promosyon ürünü"} fill sizes="(max-width: 760px) 250px, 280px" style={{ objectFit: "cover" }}/>
+    {imageUrl
+      ? <img src={imageUrl} alt={alt || labels[type] || "Kurumsal promosyon ürünü"} loading="lazy" />
+      : <Image src={images[type] || "/catalog-stationery.png"} alt={alt || labels[type] || "Kurumsal promosyon ürünü"} fill sizes="(max-width: 760px) 250px, 280px" style={{ objectFit: "cover" }}/>
+    }
   </div>;
 }

@@ -1,7 +1,7 @@
 import "server-only";
 import { firebaseDb } from "@/lib/firebase-admin";
 
-export type Product = { id:string; name:string; type:string; color:string; old:string; price:string; min:number; badge:string; category:string; active:boolean; featured:boolean; createdAt:string };
+export type Product = { id:string; name:string; type:string; color:string; old:string; price:string; min:number; badge:string; category:string; active:boolean; featured:boolean; createdAt:string; imageUrl?:string; imageUrls?:string[]; videoUrl?:string; description?:string; features?:string[]; freeDesign?:boolean };
 export type Inquiry = { id:string; name:string; phone:string; email:string; category:string; message:string; status:"new"|"contacted"|"closed"; createdAt:string };
 export type SiteSettings = { businessName:string; phone:string; email:string; whatsapp:string; heroTitle:string; heroAccent:string; heroDescription:string; announcement:string };
 export type Store = { products:Product[]; inquiries:Inquiry[]; settings:SiteSettings };
