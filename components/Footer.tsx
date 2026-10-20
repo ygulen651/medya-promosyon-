@@ -9,6 +9,6 @@ export default function Footer({settings}:{settings:SiteSettings}) {
       <div><strong>Kurumsal</strong>{settings.quotePageEnabled!==false&&<Link href="/teklif">Teklif Al</Link>}<Link href="/gizlilik">Gizlilik Politikası</Link><Link href="/kullanim-sartlari">Kullanım Şartları</Link></div>
       <div><strong>Bize ulaşın</strong><a href={`tel:${settings.phone.replace(/\s/g,"")}`}>{settings.phone}</a><a href={`mailto:${settings.email}`}>{settings.email}</a></div>
     </div>
-    <div className="catalog-container footer-copy">© {new Date().getFullYear()} {settings.businessName}<span className="footer-credit"><a href="https://www.entekdigital.com/" target="_blank" rel="noopener noreferrer">Entek Digital</a> tarafından yapılmıştır.</span></div>
+    <div className="catalog-container footer-copy">© {new Date().getFullYear()} {settings.businessName}<span className="footer-credit">Web Sitesi ve Yazılım: <a href="https://www.entekdigital.com/" target="_blank" rel="noopener noreferrer">Entek Digital</a></span></div>
   </footer>;
 }
