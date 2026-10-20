@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Instrument_Serif } from "next/font/google";
 import "./globals.css";
+import QuoteListProvider from "@/components/QuoteListProvider";
 import ConsentAnalytics from "@/components/ConsentAnalytics";
 
 const geist = Geist({ subsets:["latin"], variable:"--font-sans", display:"swap" });
@@ -22,5 +23,5 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({children}:{children:React.ReactNode}) {
-  return <html lang="tr"><body className={`${geist.variable} ${display.variable}`}>{children}<ConsentAnalytics/></body></html>;
+  return <html lang="tr"><body className={`${geist.variable} ${display.variable}`}><QuoteListProvider>{children}</QuoteListProvider><ConsentAnalytics/></body></html>;
 }

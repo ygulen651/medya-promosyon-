@@ -18,6 +18,14 @@ function cleanMediaUrls(value: unknown, limit: number) {
   return value.map(cleanImageUrl).filter(Boolean).slice(0, limit);
 }
 
+function cleanPrintPricing(value: unknown) {
+  if (!Array.isArray(value)) return [];
+  return value
+    .map((entry) => ({ title: String((entry as Record<string, unknown>)?.title || "").trim().slice(0, 60), imageUrl: cleanImageUrl((entry as Record<string, unknown>)?.imageUrl) }))
+    .filter((entry) => entry.imageUrl)
+    .slice(0, 4);
+}
+
 function productFields(body: Record<string, unknown>) {
   return {
     name: String(body.name || "").trim().slice(0, 120),
@@ -36,6 +44,9 @@ function productFields(body: Record<string, unknown>) {
     description: String(body.description || "").trim().slice(0, 1200),
     features: cleanFeatures(body.features),
     freeDesign: Boolean(body.freeDesign),
+    size: String(body.size || "").trim().slice(0, 60),
+    stock: String(body.stock || "").trim().slice(0, 30),
+    printPricing: cleanPrintPricing(body.printPricing),
   };
 }
 

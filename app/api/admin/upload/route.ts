@@ -26,7 +26,8 @@ export async function POST(request: Request) {
   if ((!isVideo && upload.size > imageMaxSize) || (isVideo && upload.size > videoMaxSize)) return NextResponse.json({ message: isVideo ? "Video en fazla 50 MB olabilir." : "Her görsel en fazla 5 MB olabilir." }, { status: 413 });
 
   const token = randomUUID();
-  const objectName = `products/${isVideo ? "videos" : "images"}/${Date.now()}-${randomUUID()}.${allowedTypes.get(upload.type)}`;
+  const folder = formData.get("folder") === "categories" && !isVideo ? "categories" : "products";
+  const objectName = `${folder}/${isVideo ? "videos" : "images"}/${Date.now()}-${randomUUID()}.${allowedTypes.get(upload.type)}`;
   try {
     const file = firebaseBucket.file(objectName);
     await file.save(Buffer.from(await upload.arrayBuffer()), {

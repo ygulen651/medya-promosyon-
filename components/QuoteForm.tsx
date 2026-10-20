@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { CheckCircle2, LoaderCircle } from "lucide-react";
 
-export default function QuoteForm(){
+export default function QuoteForm({selectedProducts=[]}:{selectedProducts?:{id:string;name:string}[]}){
   const [state,setState]=useState<"idle"|"loading"|"ok"|"error">("idle");
   const [error,setError]=useState("");
 
@@ -13,7 +13,7 @@ export default function QuoteForm(){
     setState("loading");
     setError("");
     try{
-      const response=await fetch("/api/teklif",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(Object.fromEntries(formData))});
+      const response=await fetch("/api/teklif",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({...Object.fromEntries(formData),message:String(formData.get("message")||"")+(selectedProducts.length?"\n\nTeklif istenen ürünler:\n"+selectedProducts.map(product=>`${product.id} — ${product.name}`).join("\n"):"")})});
       const result=await response.json().catch(()=>({message:"Talep gönderilemedi."}));
       if(!response.ok)throw new Error(result.message||"Talep gönderilemedi.");
       formElement.reset();
