@@ -1,0 +1,250 @@
+[
+  {
+    "no": 1,
+    "category": "Plastik Kalem",
+    "file": "/categories/plastik-kalem.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1611591
+  },
+  {
+    "no": 2,
+    "category": "Metal Kalem",
+    "file": "/categories/metal-kalem.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1627218
+  },
+  {
+    "no": 3,
+    "category": "Tarihli Ajanda",
+    "file": "/categories/tarihli-ajanda.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1622086
+  },
+  {
+    "no": 4,
+    "category": "Defter",
+    "file": "/categories/defter.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1824390
+  },
+  {
+    "no": 5,
+    "category": "Çakmak",
+    "file": "/categories/cakmak.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1400927
+  },
+  {
+    "no": 6,
+    "category": "Oto Kokusu",
+    "file": "/categories/oto-kokusu.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1416943
+  },
+  {
+    "no": 7,
+    "category": "Tişört",
+    "file": "/categories/tisort.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1519733
+  },
+  {
+    "no": 8,
+    "category": "Sweatshirt",
+    "file": "/categories/sweatshirt.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1423201
+  },
+  {
+    "no": 9,
+    "category": "Polar",
+    "file": "/categories/polar.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1699248
+  },
+  {
+    "no": 10,
+    "category": "Softshell Mont",
+    "file": "/categories/softshell-mont.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1464297
+  },
+  {
+    "no": 11,
+    "category": "Softshell Yelek",
+    "file": "/categories/softshell-yelek.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1378684
+  },
+  {
+    "no": 12,
+    "category": "Softshell Pantolon",
+    "file": "/categories/softshell-pantolon.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1359610
+  },
+  {
+    "no": 13,
+    "category": "Gabardin Mont",
+    "file": "/categories/gabardin-mont.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1564492
+  },
+  {
+    "no": 14,
+    "category": "Gabardin Yelek",
+    "file": "/categories/gabardin-yelek.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1617184
+  },
+  {
+    "no": 15,
+    "category": "Gabardin Pantolon",
+    "file": "/categories/gabardin-pantolon.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1468775
+  },
+  {
+    "no": 16,
+    "category": "Kot Pantolon",
+    "file": "/categories/kot-pantolon.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1611052
+  },
+  {
+    "no": 17,
+    "category": "İkaz Yelekleri",
+    "file": "/categories/ikaz-yelekleri.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1765446
+  },
+  {
+    "no": 18,
+    "category": "Polar Boyunluk",
+    "file": "/categories/polar-boyunluk.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1603394
+  },
+  {
+    "no": 19,
+    "category": "Polar Bere",
+    "file": "/categories/polar-bere.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1512399
+  },
+  {
+    "no": 20,
+    "category": "Kartvizit",
+    "file": "/categories/kartvizit.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1329076
+  },
+  {
+    "no": 21,
+    "category": "El İlanı",
+    "file": "/categories/el-ilani.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1243462
+  },
+  {
+    "no": 22,
+    "category": "Afiş",
+    "file": "/categories/afis.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1226186
+  },
+  {
+    "no": 23,
+    "category": "Kaşe",
+    "file": "/categories/kase.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1518042
+  },
+  {
+    "no": 24,
+    "category": "Makbuz",
+    "file": "/categories/makbuz.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1480760
+  },
+  {
+    "no": 25,
+    "category": "Bloknot",
+    "file": "/categories/bloknot.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1436134
+  },
+  {
+    "no": 26,
+    "category": "Katalog",
+    "file": "/categories/katalog.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1311592
+  },
+  {
+    "no": 27,
+    "category": "Karton Çanta",
+    "file": "/categories/karton-canta.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1281942
+  },
+  {
+    "no": 28,
+    "category": "Bez Çanta",
+    "file": "/categories/bez-canta.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1576652
+  },
+  {
+    "no": 29,
+    "category": "Etiket",
+    "file": "/categories/etiket.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1402190
+  },
+  {
+    "no": 30,
+    "category": "Kabartma Etiket",
+    "file": "/categories/kabartma-etiket.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1526446
+  },
+  {
+    "no": 31,
+    "category": "Zarf",
+    "file": "/categories/zarf.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1375752
+  }
+]

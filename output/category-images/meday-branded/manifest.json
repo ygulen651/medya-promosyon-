@@ -1,0 +1,281 @@
+[
+  {
+    "no": 1,
+    "category": "Plastik Kalem",
+    "file": "/categories/meday/plastik-kalem.webp",
+    "png": "/categories/meday/plastik-kalem.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 67934
+  },
+  {
+    "no": 2,
+    "category": "Metal Kalem",
+    "file": "/categories/meday/metal-kalem.webp",
+    "png": "/categories/meday/metal-kalem.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 68354
+  },
+  {
+    "no": 3,
+    "category": "Tarihli Ajanda",
+    "file": "/categories/meday/tarihli-ajanda.webp",
+    "png": "/categories/meday/tarihli-ajanda.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 115670
+  },
+  {
+    "no": 4,
+    "category": "Defter",
+    "file": "/categories/meday/defter.webp",
+    "png": "/categories/meday/defter.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 175972
+  },
+  {
+    "no": 5,
+    "category": "Çakmak",
+    "file": "/categories/meday/cakmak.webp",
+    "png": "/categories/meday/cakmak.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 61418
+  },
+  {
+    "no": 6,
+    "category": "Oto Kokusu",
+    "file": "/categories/meday/oto-kokusu.webp",
+    "png": "/categories/meday/oto-kokusu.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 114392
+  },
+  {
+    "no": 7,
+    "category": "Tişört",
+    "file": "/categories/meday/tisort.webp",
+    "png": "/categories/meday/tisort.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 104458
+  },
+  {
+    "no": 8,
+    "category": "Sweatshirt",
+    "file": "/categories/meday/sweatshirt.webp",
+    "png": "/categories/meday/sweatshirt.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 82778
+  },
+  {
+    "no": 9,
+    "category": "Polar",
+    "file": "/categories/meday/polar.webp",
+    "png": "/categories/meday/polar.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 162836
+  },
+  {
+    "no": 10,
+    "category": "Softshell Mont",
+    "file": "/categories/meday/softshell-mont.webp",
+    "png": "/categories/meday/softshell-mont.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 87926
+  },
+  {
+    "no": 11,
+    "category": "Softshell Yelek",
+    "file": "/categories/meday/softshell-yelek.webp",
+    "png": "/categories/meday/softshell-yelek.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 76134
+  },
+  {
+    "no": 12,
+    "category": "Softshell Pantolon",
+    "file": "/categories/meday/softshell-pantolon.webp",
+    "png": "/categories/meday/softshell-pantolon.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 73644
+  },
+  {
+    "no": 13,
+    "category": "Gabardin Mont",
+    "file": "/categories/meday/gabardin-mont.webp",
+    "png": "/categories/meday/gabardin-mont.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 109016
+  },
+  {
+    "no": 14,
+    "category": "Gabardin Yelek",
+    "file": "/categories/meday/gabardin-yelek.webp",
+    "png": "/categories/meday/gabardin-yelek.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 128224
+  },
+  {
+    "no": 15,
+    "category": "Gabardin Pantolon",
+    "file": "/categories/meday/gabardin-pantolon.webp",
+    "png": "/categories/meday/gabardin-pantolon.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 99674
+  },
+  {
+    "no": 16,
+    "category": "Kot Pantolon",
+    "file": "/categories/meday/kot-pantolon.webp",
+    "png": "/categories/meday/kot-pantolon.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 145848
+  },
+  {
+    "no": 17,
+    "category": "İkaz Yelekleri",
+    "file": "/categories/meday/ikaz-yelekleri.webp",
+    "png": "/categories/meday/ikaz-yelekleri.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 156850
+  },
+  {
+    "no": 18,
+    "category": "Polar Boyunluk",
+    "file": "/categories/meday/polar-boyunluk.webp",
+    "png": "/categories/meday/polar-boyunluk.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 162792
+  },
+  {
+    "no": 19,
+    "category": "Polar Bere",
+    "file": "/categories/meday/polar-bere.webp",
+    "png": "/categories/meday/polar-bere.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 164936
+  },
+  {
+    "no": 20,
+    "category": "Kartvizit",
+    "file": "/categories/meday/kartvizit.webp",
+    "png": "/categories/meday/kartvizit.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 93072
+  },
+  {
+    "no": 21,
+    "category": "El İlanı",
+    "file": "/categories/meday/el-ilani.webp",
+    "png": "/categories/meday/el-ilani.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 72382
+  },
+  {
+    "no": 22,
+    "category": "Afiş",
+    "file": "/categories/meday/afis.webp",
+    "png": "/categories/meday/afis.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 58946
+  },
+  {
+    "no": 23,
+    "category": "Kaşe",
+    "file": "/categories/meday/kase.webp",
+    "png": "/categories/meday/kase.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 97480
+  },
+  {
+    "no": 24,
+    "category": "Makbuz",
+    "file": "/categories/meday/makbuz.webp",
+    "png": "/categories/meday/makbuz.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 86426
+  },
+  {
+    "no": 25,
+    "category": "Bloknot",
+    "file": "/categories/meday/bloknot.webp",
+    "png": "/categories/meday/bloknot.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 83712
+  },
+  {
+    "no": 26,
+    "category": "Katalog",
+    "file": "/categories/meday/katalog.webp",
+    "png": "/categories/meday/katalog.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 54370
+  },
+  {
+    "no": 27,
+    "category": "Karton Çanta",
+    "file": "/categories/meday/karton-canta.webp",
+    "png": "/categories/meday/karton-canta.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 75170
+  },
+  {
+    "no": 28,
+    "category": "Bez Çanta",
+    "file": "/categories/meday/bez-canta.webp",
+    "png": "/categories/meday/bez-canta.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 110690
+  },
+  {
+    "no": 29,
+    "category": "Etiket",
+    "file": "/categories/meday/etiket.webp",
+    "png": "/categories/meday/etiket.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 86758
+  },
+  {
+    "no": 30,
+    "category": "Kabartma Etiket",
+    "file": "/categories/meday/kabartma-etiket.webp",
+    "png": "/categories/meday/kabartma-etiket.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 118616
+  },
+  {
+    "no": 31,
+    "category": "Zarf",
+    "file": "/categories/meday/zarf.webp",
+    "png": "/categories/meday/zarf.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 85562
+  }
+]
